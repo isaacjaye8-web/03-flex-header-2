@@ -1,0 +1,39 @@
+.flex-container {
+    padding: 8px;
+}
+
+
+.flex-container, .links, .shapes {
+    display: flex;
+    align-items: center;
+}
+
+.logo, .one, .two, .three{
+    color: purple;
+    margin: 0 16px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.links {
+    margin: 0 auto 0 0;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 4px 8px;
+    margin: 0 16px;
+    border-radius: 4px;
+    border: none;
+}
+
+.circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    background-color: purple;
+}
